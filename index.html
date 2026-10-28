@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Patna - Search Tanzania on WhatsApp, SMS, and Web">
+    <meta property="og:title" content="Patna - Search Tanzania">
+    <meta property="og:description" content="Find jobs, services, and information across Tanzania">
+    <meta property="og:url" content="https://patna.patnacom.co.tz">
+    <title data-i18n="title">Patna - Search Tanzania</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" data-i18n="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="Patna">
+                <svg class="logo-icon" viewBox="0 0 2000 2000" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#3B52E8"/>
+                            <stop offset="100%" stop-color="#1A1E9A"/>
+                        </linearGradient>
+                    </defs>
+                    <path d="M1631 541C1631 541 1656 541 1656 741C1656 841 1631 941 1631 941L1631 741L1631 541Z" fill="url(#logoGradient)"/>
+                </svg>
+                <span class="wordmark">patna</span>
+                <span class="tagline">by Patnacom Services</span>
+            </a>
+            <div class="nav-links">
+                <a href="#how-it-works" class="nav-link" data-i18n="nav.howItWorks">How it works</a>
+                <a href="#search" class="nav-link" data-i18n="nav.search">What you can search</a>
+                <a href="#language" class="nav-link" data-i18n="nav.language">Language</a>
+                <a href="#privacy" class="nav-link" data-i18n="nav.privacy">Privacy</a>
+                <a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a>
+            </div>
+            <div class="nav-actions">
+                <div class="lang-toggle" data-i18n="langToggle">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="sw">SW</button>
+                </div>
+                <a href="https://wa.me/255700000000" class="btn btn-wa" data-i18n="cta.start">
+                    <i class="ti ti-brand-whatsapp"></i>
+                    <span>Start on WhatsApp</span>
+                </a>
+                <button class="hamburger" aria-label="Menu" data-i18n="menu">
+                    <i class="ti ti-menu-2"></i>
+                </button>
+            </div>
+        </div>
+        <div class="nav-drawer">
+            <button class="nav-drawer-close" aria-label="Close">
+                <i class="ti ti-x"></i>
+            </button>
+            <div class="nav-drawer-links">
+                <a href="#how-it-works" class="nav-link" data-i18n="nav.howItWorks">How it works</a>
+                <a href="#search" class="nav-link" data-i18n="nav.search">What you can search</a>
+                <a href="#language" class="nav-link" data-i18n="nav.language">Language</a>
+                <a href="#privacy" class="nav-link" data-i18n="nav.privacy">Privacy</a>
+                <a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a>
+            </div>
+            <div class="nav-actions nav-drawer-actions">
+                <div class="lang-toggle" data-i18n="langToggle">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="sw">SW</button>
+                </div>
+                <a href="https://wa.me/255700000000" class="btn btn-wa" data-i18n="cta.start">
+                    <i class="ti ti-brand-whatsapp"></i>
+                    <span>Start on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" data-i18n="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-tag" data-i18n="hero.tag">Tanzania &middot; WhatsApp &middot; SMS &middot; Web</span>
+                    <h1 class="hero-title" data-i18n="hero.title">Search Tanzania the easy way</h1>
+                    <p class="hero-subtitle" data-i18n="hero.subtitle">Find jobs, services, and information across Tanzania. Fast, simple, and free.</p>
+                    <div class="hero-buttons">
+                        <a href="https://wa.me/255700000000" class="btn btn-wa btn-large" data-i18n="hero.cta1">
+                            <i class="ti ti-brand-whatsapp"></i>
+                            <span>Start on WhatsApp</span>
+                        </a>
+                        <a href="#search" class="btn btn-outline" data-i18n="hero.cta2">See what you can search</a>
+                    </div>
+                </div>
+                <div class="hero-panel">
+                    <div class="whatsapp-mockup">
+                        <div class="mockup-header">
+                            <div class="mockup-avatar">
+                                <i class="ti ti-brand-whatsapp"></i>
+                            </div>
+                            <span class="mockup-title" data-i18n="mockup.title">Patna Search</span>
+                        </div>
+                        <div class="mockup-chat">
+                            <div class="message received">
+                                <p data-i18n="mockup.user1">Hujana kazi ya ufundi wa umeme?</p>
+                                <span class="time">10:30</span>
+                            </div>
+                            <div class="message sent">
+                                <p data-i18n="mockup.bot1">Huna kazi 3 za ufundi wa umeme dar es salaam</p>
+                                <span class="time">10:31</span>
+                            </div>
+                            <div class="offer-cards">
+                                <div class="offer-card">
+                                    <div class="offer-icon">🔧</div>
+                                    <div class="offer-text">
+                                        <p class="offer-title" data-i18n="offer1.title">Electrician needed</p>
+                                        <p class="offer-loc" data-i18n="offer1.loc">Dar es Salaam</p>
+                                    </div>
+                                </div>
+                                <div class="offer-card">
+                                    <div class="offer-icon">🔧</div>
+                                    <div class="offer-text">
+                                        <p class="offer-title" data-i18n="offer2.title">Wiring specialist</p>
+                                        <p class="offer-loc" data-i18n="offer2.loc">Kinondoni</p>
+                                    </div>
+                                </div>
+                                <div class="offer-card">
+                                    <div class="offer-icon">🔧</div>
+                                    <div class="offer-text">
+                                        <p class="offer-title" data-i18n="offer3.title">Solar installation</p>
+                                        <p class="offer-loc" data-i18n="offer3.loc">Upanga</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mockup-input">
+                            <i class="ti ti-search"></i>
+                            <span data-i18n="mockup.placeholder">Search for jobs...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works" data-i18n="howItWorks">
+        <div class="section-container">
+            <h2 class="section-title" data-i18n="howItWorks.title">How it works</h2>
+            <p class="section-subtitle" data-i18n="howItWorks.subtitle">Simple steps to find what you need</p>
+            <div class="steps-grid">
+                <div class="step" data-i18n="step1">
+                    <span class="step-number">01</span>
+                    <div class="step-icon">
+                        <i class="ti ti-search"></i>
+                    </div>
+                    <h3 class="step-title" data-i18n="step1.title">Search</h3>
+                    <p class="step-desc" data-i18n="step1.desc">Type your query in natural language</p>
+                </div>
+                <div class="step" data-i18n="step2">
+                    <span class="step-number">02</span>
+                    <div class="step-icon">
+                        <i class="ti ti-message-circle"></i>
+                    </div>
+                    <h3 class="step-title" data-i18n="step2.title">Send</h3>
+                    <p class="step-desc" data-i18n="step2.desc">Send via WhatsApp, SMS, or web</p>
+                </div>
+                <div class="step" data-i18n="step3">
+                    <span class="step-number">03</span>
+                    <div class="step-icon">
+                        <i class="ti ti-database"></i>
+                    </div>
+                    <h3 class="step-title" data-i18n="step3.title">Match</h3>
+                    <p class="step-desc" data-i18n="step3.desc">We find relevant results instantly</p>
+                </div>
+                <div class="step" data-i18n="step4">
+                    <span class="step-number">04</span>
+                    <div class="step-icon">
+                        <i class="ti ti-check"></i>
+                    </div>
+                    <h3 class="step-title" data-i18n="step4.title">Get results</h3>
+                    <p class="step-desc" data-i18n="step4.desc">Receive structured, easy-to-read answers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Can Search Section -->
+    <section id="search" class="search-section" data-i18n="searchSection">
+        <div class="section-container">
+            <h2 class="section-title" data-i18n="searchSection.title">What you can search</h2>
+            <p class="section-subtitle" data-i18n="searchSection.subtitle">From jobs to services and more</p>
+            <div class="categories-grid">
+                <div class="category-card" data-i18n="category1">
+                    <div class="category-icon">💼</div>
+                    <h3 class="category-title" data-i18n="category1.title">Jobs</h3>
+                    <p class="category-desc" data-i18n="category1.desc">Find employment opportunities</p>
+                    <span class="category-badge" data-i18n="category1.badge">Coming Soon</span>
+                    <div class="category-example" data-i18n="category1.example">"ufundi wa umeme"</div>
+                </div>
+                <div class="category-card" data-i18n="category2">
+                    <div class="category-icon">👷</div>
+                    <h3 class="category-title" data-i18n="category2.title">Services</h3>
+                    <p class="category-desc" data-i18n="category2.desc">Find local service providers</p>
+                    <div class="category-example" data-i18n="category2.example">"mfanyikazi dar"</div>
+                </div>
+                <div class="category-card" data-i18n="category3">
+                    <div class="category-icon">🛍️</div>
+                    <h3 class="category-title" data-i18n="category3.title">Products</h3>
+                    <p class="category-desc" data-i18n="category3.desc">Buy and sell goods</p>
+                    <div class="category-example" data-i18n="category3.example">"simu ya pili"</div>
+                </div>
+                <div class="category-card" data-i18n="category4">
+                    <div class="category-icon">🏠</div>
+                    <h3 class="category-title" data-i18n="category4.title">Housing</h3>
+                    <p class="category-desc" data-i18n="category4.desc">Rent or buy property</p>
+                    <div class="category-example" data-i18n="category4.example">"nyumba kupata"</div>
+                </div>
+                <div class="category-card" data-i18n="category5">
+                    <div class="category-icon">🚗</div>
+                    <h3 class="category-title" data-i18n="category5.title">Transport</h3>
+                    <p class="category-desc" data-i18n="category5.desc">Find rides and deliveries</p>
+                    <div class="category-example" data-i18n="category5.example">"dala dala dar"</div>
+                </div>
+                <div class="category-card" data-i18n="category6">
+                    <div class="category-icon">📚</div>
+                    <h3 class="category-title" data-i18n="category6.title">Information</h3>
+                    <p class="category-desc" data-i18n="category6.desc">Get local information</p>
+                    <div class="category-example" data-i18n="category6.example">"hospitali dar"</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Built for Tanzanians Section -->
+    <section id="language" class="language-section" data-i18n="languageSection">
+        <div class="language-container">
+            <div class="language-content">
+                <h2 class="section-title" data-i18n="languageSection.title">Built for how Tanzanians talk</h2>
+                <p class="section-subtitle" data-i18n="languageSection.subtitle">Search in Swahili or English, just like you speak</p>
+                <div class="lang-tags">
+                    <span class="lang-tag" data-i18n="lang.swahili">Swahili</span>
+                    <span class="lang-tag" data-i18n="lang.english">English</span>
+                    <span class="lang-tag" data-i18n="lang.mixed">Mixed</span>
+                </div>
+            </div>
+            <div class="language-demo">
+                <div class="demo-before">
+                    <div class="demo-label" data-i18n="demo.before">Before</div>
+                    <div class="demo-message">
+                        <p data-i18n="demo.raw">Ninafanya kazi ya ufundi wa umeme. Ninaweza kusaidia.</p>
+                    </div>
+                </div>
+                <div class="demo-arrow">
+                    <i class="ti ti-arrow-right"></i>
+                </div>
+                <div class="demo-after">
+                    <div class="demo-label" data-i18n="demo.after">After</div>
+                    <div class="enquiry-card">
+                        <div class="enquiry-type" data-i18n="enquiry.type">Service Offer</div>
+                        <div class="enquiry-details">
+                            <div class="enquiry-field">
+                                <span class="field-label" data-i18n="field.service">Service:</span>
+                                <span class="field-value" data-i18n="field.electrician">Electrician</span>
+                            </div>
+                            <div class="enquiry-field">
+                                <span class="field-label" data-i18n="field.location">Location:</span>
+                                <span class="field-value" data-i18n="field.dar">Dar es Salaam</span>
+                            </div>
+                            <div class="enquiry-field">
+                                <span class="field-label" data-i18n="field.language">Language:</span>
+                                <span class="field-value" data-i18n="field.swahili">Swahili</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy & Trust Section -->
+    <section id="privacy" class="privacy-section" data-i18n="privacySection">
+        <div class="section-container">
+            <h2 class="section-title" data-i18n="privacySection.title">Privacy & trust</h2>
+            <p class="section-subtitle" data-i18n="privacySection.subtitle">Your data is safe with us</p>
+            <div class="privacy-grid">
+                <div class="privacy-card" data-i18n="privacy1">
+                    <div class="privacy-icon">
+                        <i class="ti ti-shield-check"></i>
+                    </div>
+                    <h3 class="privacy-title" data-i18n="privacy1.title">Secure</h3>
+                    <p class="privacy-desc" data-i18n="privacy1.desc">All your searches are encrypted and private</p>
+                </div>
+                <div class="privacy-card" data-i18n="privacy2">
+                    <div class="privacy-icon">
+                        <i class="ti ti-user-shield"></i>
+                    </div>
+                    <h3 class="privacy-title" data-i18n="privacy2.title">Anonymous</h3>
+                    <p class="privacy-desc" data-i18n="privacy2.desc">No personal information required to search</p>
+                </div>
+                <div class="privacy-card" data-i18n="privacy3">
+                    <div class="privacy-icon">
+                        <i class="ti ti-lock"></i>
+                    </div>
+                    <h3 class="privacy-title" data-i18n="privacy3.title">Safe</h3>
+                    <p class="privacy-desc" data-i18n="privacy3.desc">We never share your data with third parties</p>
+                </div>
+                <div class="privacy-card" data-i18n="privacy4">
+                    <div class="privacy-icon">
+                        <i class="ti ti-brand-whatsapp"></i>
+                    </div>
+                    <h3 class="privacy-title" data-i18n="privacy4.title">WhatsApp verified</h3>
+                    <p class="privacy-desc" data-i18n="privacy4.desc">Official WhatsApp Business API partner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section" data-i18n="faqSection">
+        <div class="section-container">
+            <h2 class="section-title" data-i18n="faqSection.title">Frequently asked questions</h2>
+            <p class="section-subtitle" data-i18n="faqSection.subtitle">Got questions? We have answers.</p>
+            <div class="faq-container">
+                <div class="faq-item" data-i18n="faq1">
+                    <button class="faq-question">
+                        <span data-i18n="faq1.q">How do I start using Patna?</span>
+                        <i class="ti ti-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq1.a">Simply send a message to our WhatsApp number or use the web interface. Type what you're looking for in natural language.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-i18n="faq2">
+                    <button class="faq-question">
+                        <span data-i18n="faq2.q">Is Patna free to use?</span>
+                        <i class="ti ti-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq2.a">Yes, searching on Patna is completely free. You only pay for your WhatsApp or SMS data charges.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-i18n="faq3">
+                    <button class="faq-question">
+                        <span data-i18n="faq3.q">What languages does Patna support?</span>
+                        <i class="ti ti-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq3.a">Patna supports Swahili, English, and mixed language queries. Search the way you speak.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-i18n="faq4">
+                    <button class="faq-question">
+                        <span data-i18n="faq4.q">How accurate are the results?</span>
+                        <i class="ti ti-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq4.a">We use advanced matching to provide the most relevant results. Our system is constantly learning and improving.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-i18n="faq5">
+                    <button class="faq-question">
+                        <span data-i18n="faq5.q">Can I search for jobs?</span>
+                        <i class="ti ti-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq5.a">Yes! Jobs will be available soon. You'll be able to search for employment opportunities across Tanzania.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-i18n="faq6">
+                    <button class="faq-question">
+                        <span data-i18n="faq6.q">Is my information safe?</span>
+                        <i class="ti ti-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq6.a">Absolutely. We never store or share your personal information. All searches are private and secure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta" data-i18n="finalCta">
+        <div class="cta-container">
+            <h2 class="cta-title" data-i18n="finalCta.title">Ready to search Tanzania?</h2>
+            <p class="cta-subtitle" data-i18n="finalCta.subtitle">Start now and find what you need in seconds</p>
+            <a href="https://wa.me/255700000000" class="btn btn-wa btn-xlarge" data-i18n="finalCta.button">
+                <i class="ti ti-brand-whatsapp"></i>
+                <span>Start on WhatsApp</span>
+            </a>
+            <p class="cta-number" data-i18n="finalCta.number">or call +255 700 000 000</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-i18n="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo" aria-label="Patna">
+                        <span class="wordmark">patna</span>
+                        <span class="tagline">by Patnacom Services</span>
+                    </a>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4 class="footer-col-title" data-i18n="footer.links.title">Links</h4>
+                        <a href="#how-it-works" class="footer-link" data-i18n="footer.links.how">How it works</a>
+                        <a href="#search" class="footer-link" data-i18n="footer.links.search">What you can search</a>
+                        <a href="#faq" class="footer-link" data-i18n="footer.links.faq">FAQ</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4 class="footer-col-title" data-i18n="footer.legal.title">Legal</h4>
+                        <a href="#" class="footer-link" data-i18n="footer.legal.privacy">Privacy Policy</a>
+                        <a href="#" class="footer-link" data-i18n="footer.legal.terms">Terms of Service</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4 class="footer-col-title" data-i18n="footer.contact.title">Contact</h4>
+                        <a href="mailto:hello@patnacom.co.tz" class="footer-link" data-i18n="footer.contact.email">hello@patnacom.co.tz</a>
+                        <p class="footer-text" data-i18n="footer.contact.phone">+255 700 000 000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright" data-i18n="footer.copyright">&copy; 2024 Patnacom Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
