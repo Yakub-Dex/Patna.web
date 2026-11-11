@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  code, kbd, samp, pre {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom hairline borders and editorial focus outlines */
+.hairline-border {
+  border-color: rgba(20, 23, 22, 0.08);
+}
+
+.dark .hairline-border {
+  border-color: rgba(232, 234, 233, 0.08);
+}
+
+.hairline-divide > * + * {
+  border-color: rgba(20, 23, 22, 0.08);
+}
+
+.dark .hairline-divide > * + * {
+  border-color: rgba(232, 234, 233, 0.08);
+}

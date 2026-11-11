@@ -1,0 +1,6 @@
+{
+  "name": "Patna — WhatsApp & Multi-Channel Search for Tanzania",
+  "description": "WhatsApp, SMS, Web, and App-based search and recommendation service by Patnacom Services in Dar es Salaam, Tanzania. Connecting consumers with verified local providers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
